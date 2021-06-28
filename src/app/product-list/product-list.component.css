@@ -1,0 +1,19 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 32%;
+}
+
+.product-card img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
