@@ -1,3 +1,3 @@
-# angular-pdttqa
+# Angular e-commerce tutorial
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-pdttqa)
+From [Getting Started](https://angular.io/start) in Angular's docs
