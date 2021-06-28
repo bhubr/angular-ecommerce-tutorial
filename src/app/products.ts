@@ -1,6 +1,7 @@
 export interface Product {
   id: number;
   name: string;
+  slug: string;
   price: number;
   description: string;
 }
@@ -9,6 +10,7 @@ export const products = [
   {
     id: 1,
     name: 'iPhone 12',
+    slug: 'iphone-12',
     price: 849,
     description:
       'Meet the new iPhone 12 and iPhone 12 mini. 5G speed. A14 Bionic. Super Retina XDR display.',
@@ -18,6 +20,7 @@ export const products = [
   {
     id: 2,
     name: 'OnePlus 9 Pro',
+    slug: 'oneplus-9-pro',
     price: 915,
     description:
       'The OnePlus 9 Pro showcases the stunning “Designed by OnePlus” vision.',
@@ -27,6 +30,7 @@ export const products = [
   {
     id: 3,
     name: 'Galaxy A52 5G',
+    slug: 'galaxy-a52-5g',
     price: 449,
     description: '',
     // 'The Galaxy A52 5G features a great 6.5-inch screen with fast 120Hz refresh rate, a capable 64-megapixel main camera.',
